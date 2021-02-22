@@ -1,0 +1,19 @@
+/* General Sibling
+h2 ~ p{ Comentary: All elements than sharing the same line
+    color: red;
+} */
+
+/* Adjacent Sibling
+h2 + p{ Comentary: Immediately consecutive element
+    color: red;
+} */
+
+/* Child 
+div > p{ Comentary: Father and son direct. 
+    color: red;
+} */
+
+/* Descendant */
+div p{ /* Comentary: All elements inside the tags than meets the condition */
+    color: red;
+}

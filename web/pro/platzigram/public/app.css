@@ -1,0 +1,55 @@
+body {
+  background: white;
+  color: #1e1288;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#main-container {
+  margin: 30px auto;
+}
+
+.game {
+  max-width: 70%;
+}
+
+.site-footer {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.login-box,
+.signup-box {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.signup-box .ps5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 42px;
+}
+
+.signup-form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.signup-form h2 {
+  color: #4e5157;
+  font-size: 1.2em;
+}
+
+.signup-form .btn.btn-fb {
+  background-color: #0d53d6;
+  font-size: .8em;
+}
+
+.signup-form .btn.btn-fb:hover {
+  background-color: #3093a0;
+}
+
+.signup-form .btn.btn-signup {
+  background-color: #2493e2;
+}
