@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    background-color: blueviolet;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    padding: .5rem 5rem;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.ico{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    top: .5rem;
+    left: .5rem;
+}
+
+.container{
+    display: flex table-column-group;
+    background-color: seagreen;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 3.5rem 1rem;
+    background-color: blue;
+    margin: .5rem .5rem;
+    font-size: 2rem;
+}
+
+.container .left{
+    background-color: salmon;
+    width: 12rem;
+    height: 100%;
+}
+
+.main-content{
+    background-color: seagreen;
+    width: 100%;
+    height: 100%;
+}
+
+/* .javascript{
+    background-color: blue;
+}
+
+.python{
+    background-color: blue;
+}
+
+.business{
+    background-color: blue;
+}
+
+.english{
+    background-color: blue;
+}*/
+
+.footer{
+    background-color: cadetblue;
+    font-size: 1.5rem;
+}
+
+.lorem{
+    position: relative;
+    justify-content: end;
+}
